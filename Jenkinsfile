@@ -37,7 +37,7 @@ pipeline {
     LAYER_NAME = 'boto3'
     LAYER_RUNTIME = "python${PYTHON_VERSION}"
     LAYER_DESCRIPTION = "AWS boto3 Lambda Layer for Python ${PYTHON_VERSION}"
-    LAYER_LICENSE = 'Apache-2.0'
+    LAYER_LICENSE = 'MIXED'
     PIP_DISABLE_PIP_VERSION_CHECK = '1'
   }
   stages {
